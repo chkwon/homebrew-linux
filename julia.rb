@@ -10,6 +10,6 @@ class Julia < Formula
     def install
         libexec.install Dir["*"]
         print "#{libexec}/bin/juila"
-        bin.install_symlink("#{libexec}/bin/juila" => "julia")
+        bin.install_symlink "#{libexec}/bin/juila" => "julia"
     end
 end
