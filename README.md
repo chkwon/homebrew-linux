@@ -16,7 +16,7 @@ brew install chkwon/linux/julia
 ```
 
 
-3. Check if installed corrected:
+3. Check if installed correctly:
 ```bash
 $ which julia
 /home/linuxbrew/.linuxbrew/bin/julia
