@@ -1,10 +1,15 @@
 
-To install Julia Generic Linux Binaries for x86 64 bit.
+To install [Julia](https://julialang.org/) 64-bit generic linux binaries for x86 systems in Ubuntu.
 
 
 # Install Julia via Linuxbrew
 
-1. Install [Linuxbrew](http://linuxbrew.sh).
+1 Install dependencis
+```
+sudo apt-get install build-essential curl file git python-setuptools
+```
+
+2. Install [Linuxbrew](http://linuxbrew.sh).
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 
@@ -14,13 +19,13 @@ test -r ~/.bash_profile && echo "export PATH='$(brew --prefix)/bin:$(brew --pref
 echo "export PATH='$(brew --prefix)/bin:$(brew --prefix)/sbin'":'"$PATH"' >>~/.profile
 ```
 
-2. Install Julia generic binary:
+3. Install Julia generic binary:
 ```bash
 brew install chkwon/linux/julia
 ```
 
 
-3. Check if installed correctly:
+4. Check if installed correctly:
 ```bashGeneric Linux Binaries for x86
 $ which julia
 /home/linuxbrew/.linuxbrew/bin/julia
@@ -30,7 +35,7 @@ julia version 0.6.2
 ```
 
 
-# Install Julia via a simple script
+# (Alternative) Install Julia via a simple script
 
 This script will install Julia in `/opt/julia` and make a symbolic link as `/usr/bin/julia`
 
