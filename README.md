@@ -6,7 +6,7 @@ To install [Julia](https://julialang.org/) 64-bit generic linux binaries for x86
 
 1. Install dependencis
 ```
-sudo apt-get install build-essential curl file git python-setuptools
+sudo apt-get install build-essential curl file git python-setuptools gfortran
 ```
 
 2. Install [Linuxbrew](http://linuxbrew.sh).
