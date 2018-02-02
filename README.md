@@ -1,3 +1,7 @@
+
+To install Julia Generic Linux Binaries for x86 64 bit.
+
+
 # Install Julia via Linuxbrew
 
 1. Install [Linuxbrew](http://linuxbrew.sh).
@@ -17,7 +21,7 @@ brew install chkwon/linux/julia
 
 
 3. Check if installed correctly:
-```bash
+```bashGeneric Linux Binaries for x86
 $ which julia
 /home/linuxbrew/.linuxbrew/bin/julia
 
