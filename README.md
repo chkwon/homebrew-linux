@@ -24,3 +24,12 @@ $ which julia
 $ julia -v
 julia version 0.6.2
 ```
+
+
+# Install Julia via a simple script
+
+This script will install Julia in `/opt/julia` and make a symbolic link as `/usr/bin/julia`
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/chkwon/homebrew-linux/master/julia_install.sh)"
+```
