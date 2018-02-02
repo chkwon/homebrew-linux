@@ -14,3 +14,13 @@ echo "export PATH='$(brew --prefix)/bin:$(brew --prefix)/sbin'":'"$PATH"' >>~/.p
 ```bash
 brew install chkwon/linux/julia
 ```
+
+
+3. Check if installed corrected:
+```bash
+$ which julia
+/home/linuxbrew/.linuxbrew/bin/julia
+
+$ julia -v
+julia version 0.6.2
+```
