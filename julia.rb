@@ -1,5 +1,6 @@
 class Julia < Formula
-    homepage "http://julialang.org"
+    desc "Julia Language"
+    homepage "https://julialang.org/"
     version "0.6.2"
 
     url "https://julialang-s3.julialang.org/bin/linux/x64/0.6/julia-#{version}-linux-x86_64.tar.gz"
@@ -9,7 +10,7 @@ class Julia < Formula
 
     def install
         libexec.install Dir["*"]
-        print "#{libexec}/bin/juila"
-        bin.install_symlink "#{libexec}/bin/juila" => "julia"
+        puts "#{libexec}/bin/juila"
+        bin.install_symlink("#{libexec}/bin/julia" => "julia")    
     end
 end
