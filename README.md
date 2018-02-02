@@ -4,7 +4,7 @@ To install [Julia](https://julialang.org/) 64-bit generic linux binaries for x86
 
 # Install Julia via Linuxbrew
 
-1 Install dependencis
+1. Install dependencis
 ```
 sudo apt-get install build-essential curl file git python-setuptools
 ```
