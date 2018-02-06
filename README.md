@@ -21,7 +21,7 @@ echo "export PATH='$(brew --prefix)/bin:$(brew --prefix)/sbin'":'"$PATH"' >>~/.p
 
 3. Install Julia generic binary:
 ```bash
-brew install chkwon/linux/julia
+brew install chkwon/linuxbinary/julia
 ```
 
 
@@ -40,5 +40,5 @@ julia version 0.6.2
 This script will install Julia in `/opt/julia` and make a symbolic link as `/usr/bin/julia`
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/chkwon/homebrew-linux/master/julia_install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/chkwon/homebrew-linuxbinary/master/julia_install.sh)"
 ```
